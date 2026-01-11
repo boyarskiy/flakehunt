@@ -1,0 +1,35 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 1,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 2,
+  "success": false,
+  "testResults": [
+    {
+      "name": "/project/src/api.test.js",
+      "status": "failed",
+      "assertionResults": [
+        {
+          "fullName": "api fetchData returns data",
+          "status": "passed",
+          "title": "returns data",
+          "duration": 100,
+          "failureMessages": []
+        },
+        {
+          "fullName": "api fetchData handles errors",
+          "status": "failed",
+          "title": "handles errors",
+          "duration": 150,
+          "failureMessages": [
+            "Error: expect(received).toBe(expected)\n\nExpected: \"error\"\nReceived: \"success\""
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="cypress/e2e/settings.cy.js" tests="3" failures="0" errors="0" skipped="1" time="1.0">
+    <testcase name="should load settings" classname="cypress/e2e/settings.cy.js" time="0.5"/>
+    <testcase name="should update profile" classname="cypress/e2e/settings.cy.js" time="0.5"/>
+    <testcase name="should delete account" classname="cypress/e2e/settings.cy.js" time="0">
+      <skipped message="Test skipped"/>
+    </testcase>
+  </testsuite>
+</testsuites>

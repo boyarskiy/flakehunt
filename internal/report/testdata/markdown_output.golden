@@ -1,0 +1,93 @@
+# Flakehunt Report
+
+## Summary
+
+| Metric | Value |
+|--------|-------|
+| Tool | jest |
+| Target | src/components/Button.test.tsx |
+| Runs Executed | 10 |
+| Flaky Tests | 2 |
+| Deterministic Failures | 0 |
+| Stable Tests | 1 |
+
+## Top Flakes
+
+Ranked by wasted time (flakeRate x avgDuration x runs).
+
+### 1. src/components/Button.test.tsx::Button should submit form
+
+| Metric | Value |
+|--------|-------|
+| Flake Rate | 50.0% |
+| Pass Count | 5 |
+| Fail Count | 5 |
+| Skip Count | 0 |
+| Average Duration | 200ms |
+| Wasted Time | 1.0s |
+
+**Failed Runs:**
+
+- **Run 1** [NETWORK]
+  ```
+  Network error: ECONNREFUSED
+  ```
+- **Run 3** [NETWORK]
+  ```
+  Network error: ECONNREFUSED
+  ```
+- **Run 4** [NETWORK]
+  ```
+  Network error: ECONNREFUSED
+  ```
+- **Run 7** [NETWORK]
+  ```
+  Network error: ECONNREFUSED
+  ```
+- **Run 9** [NETWORK]
+  ```
+  Network error: ECONNREFUSED
+  ```
+
+### 2. src/components/Button.test.tsx::Button should handle click
+
+| Metric | Value |
+|--------|-------|
+| Flake Rate | 30.0% |
+| Pass Count | 7 |
+| Fail Count | 3 |
+| Skip Count | 0 |
+| Average Duration | 100ms |
+| Wasted Time | 300ms |
+
+**Failed Runs:**
+
+- **Run 2** [SELECTOR]
+  ```
+  Unable to find element with text 'Click me'
+  ```
+- **Run 5** [SELECTOR]
+  ```
+  Unable to find element with text 'Click me'
+  ```
+- **Run 8** [TIMEOUT]
+  ```
+  Timeout waiting for element
+  ```
+
+## Failure Signatures
+
+| Signature | Count |
+|-----------|-------|
+| NETWORK | 5 |
+| SELECTOR | 2 |
+| TIMEOUT | 1 |
+
+## All Tests
+
+| Test ID | Classification | Flake Rate | Pass | Fail | Skip |
+|---------|----------------|------------|------|------|------|
+| src/components/Button.test.tsx::Button should handle click | flaky | 30.0% | 7 | 3 | 0 |
+| src/components/Button.test.tsx::Button should submit form | flaky | 50.0% | 5 | 5 | 0 |
+| src/components/Button.test.tsx::Button should render correctly | stable | - | 10 | 0 | 0 |
+

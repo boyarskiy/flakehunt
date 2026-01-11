@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="cypress/e2e/flaky.cy.js" tests="3" failures="1" errors="0" skipped="0" time="3.0">
+    <testcase name="flaky test" classname="cypress/e2e/flaky.cy.js" time="1.0">
+      <failure message="Timeout waiting for element" type="TimeoutError">Timeout</failure>
+    </testcase>
+    <testcase name="stable test" classname="cypress/e2e/flaky.cy.js" time="0.5"/>
+    <testcase name="flaky test" classname="cypress/e2e/flaky.cy.js" time="1.5"/>
+  </testsuite>
+</testsuites>

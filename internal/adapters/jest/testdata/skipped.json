@@ -1,0 +1,40 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 1,
+  "numPassedTests": 1,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 2,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 3,
+  "success": true,
+  "testResults": [
+    {
+      "name": "/project/src/feature.test.js",
+      "status": "passed",
+      "assertionResults": [
+        {
+          "fullName": "feature disabled functionality is disabled",
+          "status": "pending",
+          "title": "is disabled",
+          "duration": 0,
+          "failureMessages": []
+        },
+        {
+          "fullName": "feature enabled functionality works",
+          "status": "passed",
+          "title": "works",
+          "duration": 10,
+          "failureMessages": []
+        },
+        {
+          "fullName": "feature todo functionality needs implementation",
+          "status": "todo",
+          "title": "needs implementation",
+          "duration": 0,
+          "failureMessages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="cypress/e2e/checkout.cy.js" tests="2" failures="1" errors="0" skipped="0" time="2.0">
+    <testcase name="should add item to cart" classname="cypress/e2e/checkout.cy.js" time="0.8"/>
+    <testcase name="should complete purchase" classname="cypress/e2e/checkout.cy.js" time="1.2">
+      <failure message="AssertionError: expected button to be visible" type="AssertionError">
+        AssertionError: expected button to be visible
+        at Context.eval (cypress/e2e/checkout.cy.js:15:10)
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>

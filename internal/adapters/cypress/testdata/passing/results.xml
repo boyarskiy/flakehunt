@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="cypress/e2e/login.cy.js" tests="2" failures="0" errors="0" skipped="0" time="1.5">
+    <testcase name="should display login form" classname="cypress/e2e/login.cy.js" time="0.5"/>
+    <testcase name="should login successfully" classname="cypress/e2e/login.cy.js" time="1.0"/>
+  </testsuite>
+</testsuites>

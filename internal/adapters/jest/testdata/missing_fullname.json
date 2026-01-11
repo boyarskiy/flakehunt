@@ -1,0 +1,19 @@
+{
+  "numTotalTests": 1,
+  "success": true,
+  "testResults": [
+    {
+      "name": "/project/src/test.js",
+      "status": "passed",
+      "assertionResults": [
+        {
+          "fullName": "",
+          "status": "passed",
+          "title": "example",
+          "duration": 5,
+          "failureMessages": []
+        }
+      ]
+    }
+  ]
+}

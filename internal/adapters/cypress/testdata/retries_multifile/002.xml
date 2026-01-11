@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="cypress/e2e/flaky.cy.js" tests="1" failures="0" errors="0" skipped="0" time="1.5">
+    <testcase name="flaky test" classname="cypress/e2e/flaky.cy.js" time="1.5"/>
+  </testsuite>
+</testsuites>

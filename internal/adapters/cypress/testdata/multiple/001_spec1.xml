@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="cypress/e2e/spec1.cy.js" tests="1" failures="0" errors="0" skipped="0" time="0.5">
+    <testcase name="test from spec1" classname="cypress/e2e/spec1.cy.js" time="0.5"/>
+  </testsuite>
+</testsuites>

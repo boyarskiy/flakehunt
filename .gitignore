@@ -1,0 +1,47 @@
+# Binaries
+flakehunt
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.html
+
+# Go workspace file
+go.work
+
+# Dependency directories
+vendor/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Flakehunt output directory
+.flakehunt/
+
+# Debug files
+__debug_bin*
+
+# Local environment
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/
+
+# Profiling
+*.prof
+*.pprof

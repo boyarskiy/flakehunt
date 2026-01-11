@@ -1,0 +1,19 @@
+{
+  "numTotalTests": 1,
+  "success": true,
+  "testResults": [
+    {
+      "name": "",
+      "status": "passed",
+      "assertionResults": [
+        {
+          "fullName": "test example",
+          "status": "passed",
+          "title": "example",
+          "duration": 5,
+          "failureMessages": []
+        }
+      ]
+    }
+  ]
+}
